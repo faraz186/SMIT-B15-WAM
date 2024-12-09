@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables Assignment</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 80%;
+        margin: 0 auto;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 5px;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Table 01</h1>
+    <table>
+      <tr>
+        <th>Header column 1</th>
+        <th>Header column 2</th>
+        <th>Header column 3</th>
+        <th>Header column 4</th>
+      </tr>
+      <tr>
+        <td>Row 2 - Item 1</td>
+        <td>Row 2 - Item 2</td>
+        <td>
+          Row 2: Nested Table 1
+          <table>
+            <tr>
+              <td>Row 1 Header</td>
+              <td>item</td>
+            </tr>
+            <tr>
+              <td>Row 2 Header</td>
+              <td>item</td>
+            </tr>
+            <tr>
+              <td>Row 3 Header</td>
+              <td>item</td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          Row 2 - Item 4<br />
+          A second line
+        </td>
+      </tr>
+      <tr>
+        <td>Row 3: Nested Table 2</td>
+        <td>Row 3 - Item 2</td>
+        <td>Row 3 - Item 3</td>
+        <td>
+          <table>
+            <tr>
+              <td>Row 1 Header</td>
+              <td>item</td>
+            </tr>
+            <tr>
+              <td>Row 2 Header</td>
+              <td>item</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>Row 4 - Item 1</td>
+        <td>Row 4 - Item 2</td>
+        <td>Row 4 - Item 3</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="4">Row 5 - Last row of outer table</td>
+      </tr>
+    </table>
+
+    <br /><br /><br /><br /><br />
+
+    <h1>Table 02</h1>
+
+    <table>
+      <caption>
+        <strong>Athletics day time table</strong>
+      </caption>
+      <tr>
+        <th>Area</th>
+        <th>10am-11am</th>
+        <th>11am-12pm</th>
+        <th>12pm-1pm</th>
+        <th>1pm-2pm</th>
+        <th>2pm-3pm</th>
+      </tr>
+      <tr>
+        <th rowspan="2">Track</th>
+        <td>400m</td>
+        <td>200m</td>
+        <td rowspan="3">Lunch</td>
+        <td>800m</td>
+        <td>100m</td>
+      </tr>
+      <tr>
+        <td>Hurdles</td>
+        <td>1500m</td>
+        <td>Free</td>
+        <td>80m</td>
+      </tr>
+      <tr>
+        <th rowspan="2">Field</th>
+        <td>Discus</td>
+        <td>Javelin</td>
+        <td>Shot put</td>
+        <td>Hammer throw</td>
+      </tr>
+    </table>
+
+    <br /><br /><br /><br /><br />
+
+    <h1>Table 03</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="2">S No</th>
+          <th rowspan="2"><center>Subjects</center></th>
+          <th colspan="5"><center>Term-1 (100 Marks)</center></th>
+          <th colspan="5"><center>Term-2 (100 Marks)</center></th>
+        </tr>
+        <tr>
+          <th>PA1 (10)</th>
+          <th>Note Book (5)</th>
+          <th>Sub. Enrich (5)</th>
+          <th>Half Yearly Exam (80)</th>
+          <th>Obt. (100)</th>
+          <th>PA2 (10)</th>
+          <th>Note Book (5)</th>
+          <th>Sub. Enrich (5)</th>
+          <th>Yearly Exam (80)</th>
+          <th>Obt. (100)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>ENGLISH</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>HINDI</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>LANGUAGE 3</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>MATHEMATICS</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>SCIENCE</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>SOCIAL SCIENCE</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>COMPUTER SCIENCE</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>GENERAL KNOWLEDGE</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>ART & CRAFT</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br /><br /><br /><br /><br /><br />
+
+    <h1>Table 04</h1>
+
+    <table>
+      <thead>
+        <center>
+          <h2>Web Infomax IT Solutions</h2>
+        </center>
+
+        <tr>
+          <th rowspan="2">Sr. NO</th>
+          <th rowspan="2">Details of the Services Provided</th>
+          <th colspan="2" class="service-period-header">
+            <center>Service Period</center>
+          </th>
+          <th colspan="5" class="service-period-header">
+            <center>Service Performance Details</center>
+          </th>
+        </tr>
+        <tr>
+          <th>Qty</th>
+          <th>From</th>
+          <th>To</th>
+          <th>S.No</th>
+          <th>Service ID No:</th>
+          <th>Gap in Service (in days)</th>
+          <th>Overall Performance Remarks (Satisfactory/unsatisfactory)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>1</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>3</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>1</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br /><br /><br /><br /><br /><br />
+
+    <h1>Table 05</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2" rowspan="2"><center>Student</center></th>
+          <th colspan="4"><center>Exam</center></th>
+          <th colspan="4"><center>2nd Exam</center></th>
+          <th colspan="2" rowspan="2"><center>Final Grade</center></th>
+        </tr>
+        <tr>
+          <th>Q1</th>
+          <th>Q2</th>
+          <th>Q3</th>
+          <td>Grade</td>
+          <th>Q1</th>
+          <th>Q2</th>
+          <th>Q3</th>
+          <td>Grade</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Code</td>
+          <td>Name</td>
+          <td>8</td>
+          <td>7</td>
+          <td>5</td>
+          <td></td>
+          <td>6</td>
+          <td>7</td>
+          <td>8</td>
+          <td></td>
+          <td>NR</td>
+          <td>R</td>
+        </tr>
+
+        <tr>
+          <td>80549061</td>
+          <td>John</td>
+          <td>70%</td>
+          <td>100%</td>
+          <td>100%</td>
+          <td>17.6</td>
+          <td colspan="4"></td>
+
+          <td>17.6</td>
+          <td>18</td>
+        </tr>
+        <tr>
+          <td>80549062</td>
+          <td>Mary</td>
+
+          <td>10%</td>
+          <td>50%</td>
+          <td>50%</td>
+          <td>6.8</td>
+          <td>100%</td>
+          <td>100%</td>
+          <td>50%</td>
+          <td>16.5</td>
+          <td>16.5</td>
+          <td>17</td>
+        </tr>
+        <tr>
+          <td>80549063</td>
+          <td>Claire</td>
+
+          <td colspan="4"></td>
+
+          <td>50%</td>
+          <td>50%</td>
+          <td>50%</td>
+          <td>10.0</td>
+          <td>10.0</td>
+          <td>10</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

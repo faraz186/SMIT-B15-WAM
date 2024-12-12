@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chess Board</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      .board {
+        display: grid;
+        grid-template-columns: repeat(8, 60px);
+        grid-template-rows: repeat(8, 60px);
+        width: 480px;
+        height: 480px;
+        border: 2px solid black;
+      }
+      .square {
+        width: 60px;
+        height: 60px;
+      }
+      .white {
+        background-color: #ddf9bd;
+      }
+      .black {
+        background-color: #87bb4a;
+      }
+      .piece {
+        font-size: 36px;
+        text-align: center;
+        line-height: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Assignment 05</h1>
+    <center>
+      <div class="board">
+        <!-- Row 8 -->
+        <div class="square black piece">&#9820;</div>
+        <div class="square white piece">&#9822;</div>
+        <div class="square black piece">&#9821;</div>
+        <div class="square white piece">&#9819;</div>
+        <div class="square black piece">&#9818;</div>
+        <div class="square white piece">&#9821;</div>
+        <div class="square black piece">&#9822;</div>
+        <div class="square white piece">&#9820;</div>
+
+        <!-- Row 7 -->
+        <div class="square white piece">&#9823;</div>
+        <div class="square black piece">&#9823;</div>
+        <div class="square white piece">&#9823;</div>
+        <div class="square black piece">&#9823;</div>
+        <div class="square white piece">&#9823;</div>
+        <div class="square black piece">&#9823;</div>
+        <div class="square white piece">&#9823;</div>
+        <div class="square black piece">&#9823;</div>
+
+        <!-- Row 6 -->
+        <div class="square black"></div>
+        <div class="square white"></div>
+        <div class="square black"></div>
+        <div class="square white"></div>
+        <div class="square black"></div>
+        <div class="square white"></div>
+        <div class="square black"></div>
+        <div class="square white"></div>
+
+        <!-- Row 5 -->
+        <div class="square white"></div>
+        <div class="square black"></div>
+        <div class="square white"></div>
+        <div class="square black"></div>
+        <div class="square white"></div>
+        <div class="square black"></div>
+        <div class="square white"></div>
+        <div class="square black"></div>
+
+        <!-- Row 4 -->
+        <div class="square black"></div>
+        <div class="square white"></div>
+        <div class="square black"></div>
+        <div class="square white"></div>
+        <div class="square black"></div>
+        <div class="square white"></div>
+        <div class="square black"></div>
+        <div class="square white"></div>
+
+        <!-- Row 3 -->
+        <div class="square white"></div>
+        <div class="square black"></div>
+        <div class="square white"></div>
+        <div class="square black"></div>
+        <div class="square white"></div>
+        <div class="square black"></div>
+        <div class="square white"></div>
+        <div class="square black"></div>
+
+        <!-- Row 2 -->
+        <div class="square black piece">&#9817;</div>
+        <div class="square white piece">&#9817;</div>
+        <div class="square black piece">&#9817;</div>
+        <div class="square white piece">&#9817;</div>
+        <div class="square black piece">&#9817;</div>
+        <div class="square white piece">&#9817;</div>
+        <div class="square black piece">&#9817;</div>
+        <div class="square white piece">&#9817;</div>
+
+        <!-- Row 1 -->
+        <div class="square white piece">&#9814;</div>
+        <div class="square black piece">&#9816;</div>
+        <div class="square white piece">&#9815;</div>
+        <div class="square black piece">&#9813;</div>
+        <div class="square white piece">&#9812;</div>
+        <div class="square black piece">&#9815;</div>
+        <div class="square white piece">&#9816;</div>
+        <div class="square black piece">&#9814;</div>
+      </div>
+    </center>
+  </body>
+</html>

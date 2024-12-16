@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form 2</title>
+    <style>
+      body {
+        font-family: "Times New Roman", Times, serif;
+        background-color: #f3f3f3;
+        margin: 100px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .form-container {
+        background-color: #e0e0e0;
+        padding: 50px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 400px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 20px;
+        text-decoration: underline;
+        margin-bottom: 20px;
+      }
+
+      label {
+        display: inline-block;
+        width: 120px;
+        margin-bottom: 10px;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      input[type="password"],
+      textarea {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+      }
+
+      input[type="radio"] {
+        margin-right: 5px;
+      }
+
+      textarea {
+        height: 80px;
+        resize: none;
+      }
+
+      .form-buttons {
+        text-align: center;
+      }
+
+      .form-buttons input {
+        margin: 5px;
+        padding: 5px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form-container">
+      <h1 style="font-size: 25px"><strong>Registration form</strong></h1>
+      <form action="#" method="post">
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" />
+
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" />
+
+        <label for="nick-name">Nick Name:</label>
+        <input type="text" id="nick-name" name="nick-name" />
+
+        <label for="email">e-mail:</label>
+        <input type="email" id="email" name="email" />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" />
+
+        <label for="dob">Date of Birth:</label>
+        <input type="text" id="dob" name="dob" />
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male" style="width: auto">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female" style="width: auto">Female</label>
+        <input type="radio" id="others" name="gender" value="others" />
+        <label for="others" style="width: auto">Others</label>
+
+        <label for="mobile">Mobile:</label>
+        <input type="text" id="mobile" name="mobile" />
+
+        Address:
+        <textarea id="address" name="address"></textarea>
+
+        <div class="form-buttons">
+          <input type="submit" value="submit" />
+          <input type="reset" value="reset" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

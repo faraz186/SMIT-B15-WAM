@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form 1</title>
+    <style>
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        font-size: 22px;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        background-color: #f9f9e8;
+      }
+
+      .form-container {
+        box-shadow: 0 0 30px grey;
+        padding: 50px;
+        border-radius: 10px;
+        background-color: white;
+        width: 650px;
+        margin: 30px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      label {
+        display: block;
+        margin: 10px 0 5px;
+      }
+
+      input,
+      select {
+        /* width: 90%; */
+        padding: 8px;
+        margin-bottom: 10px;
+      }
+
+      input[type="checkbox"] {
+        width: auto;
+        margin-right: 10px;
+      }
+
+      .inline {
+        display: inline-block;
+        width: 48%;
+      }
+
+      .checkbox-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+      }
+
+      .checkbox-container label {
+        width: 48%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form-container">
+      <h1>Assignment 06</h1>
+      <h1>Registration Form</h1>
+      <p style="text-align: center">
+        Of course, all submitted information is kept in the strictest
+        confidence.<br />
+        You always retain control of your information with D.W. Simpson & Co.<br />
+        <strong>Our services are always at no cost to you.</strong>
+      </p>
+      <form action="#" method="post">
+        <br />
+        Name:
+        <input type="text" size="70" id="name" name="name" />
+
+        <br />
+        <br />
+
+        Address:
+        <input type="text" size="67" id="address" name="address" />
+
+        <br />
+        <br />
+        <div class="inline">
+          City:
+          <input type="text" size="25" id="city" name="city" />
+        </div>
+
+        <div class="inline">
+          State/Province:
+          <input type="text" size="12" id="state" name="state" />
+        </div>
+
+        <br />
+        <br />
+        Zip Code:
+        <input type="text" size="18" id="zip" name="zip" />
+
+        <br />
+        <br />
+
+        Country:
+        <input type="text" size="35" id="country" name="country" />
+        <br />
+        <br />
+        <div class="inline">
+          Phone (H):
+          <input type="text" size="20" id="phone-h" name="phone-h" />
+        </div>
+
+        <div class="inline">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fax:
+          <input type="text" size="19" id="fax" name="fax" />
+        </div>
+
+        <br />
+        <br />
+
+        Phone (W):
+        <input type="text" size="35" id="phone-w" name="phone-w" />
+        <small>(if able to speak freely)</small>
+        <br />
+        <br />
+
+        Email:
+        <input type="email" id="email" size="40" name="email" />
+
+        <br />
+        <br />
+
+        Company Name:
+        <input type="text" size="40" id="company" name="company" /> (optional)
+
+        <br />
+        <br />
+
+        Desired Region:
+        <select id="region" name="region">
+          <option value="other">Other</option>
+        </select>
+
+        &nbsp;&nbsp; Other:
+        <input
+          size="25"
+          type="text"
+          id="other-region"
+          name="other-region"
+          placeholder="Other region"
+        />
+
+        <p><strong>Professional designations earned:</strong></p>
+        <div class="checkbox-container">
+          <input type="checkbox" name="designation" value="college" />
+          College Student
+          <input type="checkbox" name="designation" value="actuarial" />
+          Actuarial Student
+
+          <input type="checkbox" name="designation" value="acas" />
+          ACAS
+          <input type="checkbox" name="designation" value="fcas" />
+          FCAS
+          <input type="checkbox" name="designation" value="phd" />
+          Ph.D.
+          <input type="checkbox" name="designation" value="asa" /> ASA
+          <input type="checkbox" name="designation" value="fsa" /> FSA
+          <input type="checkbox" name="designation" value="ea" /> EA
+          <input type="checkbox" name="designation" value="cfa" /> CFA
+          <input type="checkbox" name="designation" value="mba" /> MBA
+          <input type="checkbox" name="designation" value="maaa" />
+          MAAA
+          <input type="checkbox" name="designation" value="phd" />
+          Ph.D.
+          <input type="checkbox" name="designation" value="fia" /> FIA
+          <input type="checkbox" name="designation" value="fcia" />
+          FCIA
+          <input type="checkbox" name="designation" value="phd" />
+          Ph.D.
+          <input type="checkbox" name="designation" value="fiaa" />
+          FIAA
+          <input type="checkbox" name="designation" value="engineer" />
+          Financial Engineer
+          <input type="checkbox" name="designation" value="maaa" />
+          MAAA
+          <input type="checkbox" name="designation" value="ms" /> M.S.
+          <input type="checkbox" name="designation" value="phd" />
+          Ph.D.
+          <input type="checkbox" name="designation" value="maaa" />
+          MAA
+          <input type="checkbox" name="designation" value="data-mining" />
+          Data Mining
+          <input type="checkbox" name="designation" value="quant" />
+          Quant
+        </div>
+
+        <br />
+        Other <br />
+        Designations: &nbsp;&nbsp;&nbsp;
+
+        <input size="60" type="text" />
+
+        <br />
+        <br />
+
+        <a
+          style="
+            width: 100%;
+            color: white;
+            text-decoration: none;
+            padding: 8px;
+            text-align: center;
+            display: block;
+            background-color: grey;
+          "
+          href="./form.html"
+          >Submit</a
+        >
+      </form>
+    </div>
+  </body>
+</html>

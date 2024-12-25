@@ -1,0 +1,125 @@
+.firstDiv{
+        text-align: center;
+        background-color: lightgray;
+        padding: 20px;
+        width: 80%;
+        margin: 35px auto;
+        border-radius: 5px;
+        font-family:Arial, Helvetica, sans-serif;
+}
+
+.firstDiv h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.firstDiv p{
+    margin-bottom: 30px;
+    color: rgb(48, 46, 46);
+
+}
+
+.firstDiv span{
+    color: rgb(48, 46, 46);
+
+}
+
+.secondDiv{
+    /* text-align: center; */
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+}
+
+.secondDiv h1{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+
+}
+
+.secondDiv p{
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.4em;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.thirdDiv{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+}
+
+.thirdDiv h1{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.firstList, .secondList{
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+line-height: 1.3em;
+    display: inline-block;
+    margin-right: 150px;
+}
+
+.fourDiv{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.fourDiv h1{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+
+}
+
+.fourDiv p{
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.4em;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fourDiv p strong{
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.4em;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fiveDiv{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.fiveDiv p{
+    font-size: 15px;
+    line-height: 1.3em;
+}
+
+.fiveDiv h1{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+
+}
